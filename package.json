@@ -1,0 +1,39 @@
+{
+	"name": "xnet",
+	"author": "xkp <xkpx64@mail.ru>",
+	"license": "MIT",
+	"private": true,
+	"scripts": {
+		"dev": "svelte-kit dev",
+		"build": "svelte-kit build",
+		"package": "svelte-kit package",
+		"preview": "svelte-kit preview --https --host ",
+		"prepare": "svelte-kit sync",
+		"check": "svelte-check --tsconfig ./jsconfig.json",
+		"check:watch": "svelte-check --tsconfig ./jsconfig.json --watch",
+		"update": "pnpm upgrade --latest -i",
+		"node": "node ./xbuild_node/index.js",
+		"express": "node ./xEXPRESS.js",
+		"deno": "deno run --allow-env --allow-read --allow-net xbuild_deno/index.js"
+	},
+	"type": "module",
+	"pnpm": {
+		"overrides": {
+			"typescript": "next"
+		}
+	},
+	"devDependencies": {
+		"@sveltejs/kit": "1.0.0-next.357",
+		"javascript-obfuscator": "4.0.0",
+		"rollup-obfuscator": "3.0.1",
+		"svelte": "3.48.0",
+		"svelte-check": "2.8.0",
+		"svelte-preprocess": "4.10.7"
+	},
+	"dependencies": {
+		"@sveltejs/adapter-node": "1.0.0-next.78",
+		"dotenv": "16.0.1",
+		"express": "5.0.0-beta.1",
+		"svelte-adapter-deno": "0.6.2"
+	}
+}
