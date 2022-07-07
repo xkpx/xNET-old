@@ -10,7 +10,7 @@ specifiers:
   express: 5.0.0-beta.1
   javascript-obfuscator: 4.0.0
   rollup-obfuscator: 3.0.1
-  svelte: 3.48.0
+  svelte: 3.49.0
   svelte-adapter-deno: 0.6.2
   svelte-check: 2.8.0
   svelte-preprocess: 4.10.7
@@ -22,12 +22,12 @@ dependencies:
   svelte-adapter-deno: 0.6.2
 
 devDependencies:
-  '@sveltejs/kit': 1.0.0-next.359_svelte@3.48.0
+  '@sveltejs/kit': 1.0.0-next.359_svelte@3.49.0
   javascript-obfuscator: 4.0.0
   rollup-obfuscator: 3.0.1
-  svelte: 3.48.0
-  svelte-check: 2.8.0_svelte@3.48.0
-  svelte-preprocess: 4.10.7_svelte@3.48.0
+  svelte: 3.49.0
+  svelte-check: 2.8.0_svelte@3.49.0
+  svelte-preprocess: 4.10.7_svelte@3.49.0
 
 packages:
 
@@ -99,7 +99,7 @@ packages:
       tiny-glob: 0.2.9
     dev: false
 
-  /@sveltejs/kit/1.0.0-next.359_svelte@3.48.0:
+  /@sveltejs/kit/1.0.0-next.359_svelte@3.49.0:
     resolution: {integrity: sha512-3WH198JhOI9rmDlVSPPHlgg+/R/gS4x5cETjYsIw3XckpN2zExDqlYHUBUwk/dEG/12BfPB3rDMNzdZ0QHtubQ==}
     engines: {node: '>=16.7'}
     hasBin: true
@@ -107,16 +107,16 @@ packages:
       svelte: ^3.44.0
       vite: ^2.9.10
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 1.0.0-next.49_svelte@3.48.0
+      '@sveltejs/vite-plugin-svelte': 1.0.0-next.49_svelte@3.49.0
       chokidar: 3.5.3
       sade: 1.8.1
-      svelte: 3.48.0
+      svelte: 3.49.0
     transitivePeerDependencies:
       - diff-match-patch
       - supports-color
     dev: true
 
-  /@sveltejs/vite-plugin-svelte/1.0.0-next.49_svelte@3.48.0:
+  /@sveltejs/vite-plugin-svelte/1.0.0-next.49_svelte@3.49.0:
     resolution: {integrity: sha512-AKh0Ka8EDgidnxWUs8Hh2iZLZovkETkefO99XxZ4sW4WGJ7VFeBx5kH/NIIGlaNHLcrIvK3CK0HkZwC3Cici0A==}
     engines: {node: ^14.13.1 || >= 16}
     peerDependencies:
@@ -132,8 +132,8 @@ packages:
       deepmerge: 4.2.2
       kleur: 4.1.5
       magic-string: 0.26.2
-      svelte: 3.48.0
-      svelte-hmr: 0.14.12_svelte@3.48.0
+      svelte: 3.49.0
+      svelte-hmr: 0.14.12_svelte@3.49.0
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -1660,7 +1660,7 @@ packages:
       tiny-glob: 0.2.9
     dev: false
 
-  /svelte-check/2.8.0_svelte@3.48.0:
+  /svelte-check/2.8.0_svelte@3.49.0:
     resolution: {integrity: sha512-HRL66BxffMAZusqe5I5k26mRWQ+BobGd9Rxm3onh7ZVu0nTk8YTKJ9vu3LVPjUGLU9IX7zS+jmwPVhJYdXJ8vg==}
     hasBin: true
     peerDependencies:
@@ -1672,9 +1672,9 @@ packages:
       import-fresh: 3.3.0
       picocolors: 1.0.0
       sade: 1.8.1
-      svelte: 3.48.0
-      svelte-preprocess: 4.10.7_2bbh5hzsaysft3krlld4sottgm
-      typescript: 4.8.0-dev.20220705
+      svelte: 3.49.0
+      svelte-preprocess: 4.10.7_gxs3o65ec4gzup3rlsoodfocla
+      typescript: 4.8.0-dev.20220707
     transitivePeerDependencies:
       - '@babel/core'
       - coffeescript
@@ -1688,16 +1688,16 @@ packages:
       - sugarss
     dev: true
 
-  /svelte-hmr/0.14.12_svelte@3.48.0:
+  /svelte-hmr/0.14.12_svelte@3.49.0:
     resolution: {integrity: sha512-4QSW/VvXuqVcFZ+RhxiR8/newmwOCTlbYIezvkeN6302YFRE8cXy0naamHcjz8Y9Ce3ITTZtrHrIL0AGfyo61w==}
     engines: {node: ^12.20 || ^14.13.1 || >= 16}
     peerDependencies:
       svelte: '>=3.19.0'
     dependencies:
-      svelte: 3.48.0
+      svelte: 3.49.0
     dev: true
 
-  /svelte-preprocess/4.10.7_2bbh5hzsaysft3krlld4sottgm:
+  /svelte-preprocess/4.10.7_gxs3o65ec4gzup3rlsoodfocla:
     resolution: {integrity: sha512-sNPBnqYD6FnmdBrUmBCaqS00RyCsCpj2BG58A1JBswNF7b0OKviwxqVrOL/CKyJrLSClrSeqQv5BXNg2RUbPOw==}
     engines: {node: '>= 9.11.2'}
     requiresBuild: true
@@ -1744,11 +1744,11 @@ packages:
       magic-string: 0.25.9
       sorcery: 0.10.0
       strip-indent: 3.0.0
-      svelte: 3.48.0
-      typescript: 4.8.0-dev.20220705
+      svelte: 3.49.0
+      typescript: 4.8.0-dev.20220707
     dev: true
 
-  /svelte-preprocess/4.10.7_svelte@3.48.0:
+  /svelte-preprocess/4.10.7_svelte@3.49.0:
     resolution: {integrity: sha512-sNPBnqYD6FnmdBrUmBCaqS00RyCsCpj2BG58A1JBswNF7b0OKviwxqVrOL/CKyJrLSClrSeqQv5BXNg2RUbPOw==}
     engines: {node: '>= 9.11.2'}
     requiresBuild: true
@@ -1795,11 +1795,11 @@ packages:
       magic-string: 0.25.9
       sorcery: 0.10.0
       strip-indent: 3.0.0
-      svelte: 3.48.0
+      svelte: 3.49.0
     dev: true
 
-  /svelte/3.48.0:
-    resolution: {integrity: sha512-fN2YRm/bGumvjUpu6yI3BpvZnpIm9I6A7HR4oUNYd7ggYyIwSA/BX7DJ+UXXffLp6XNcUijyLvttbPVCYa/3xQ==}
+  /svelte/3.49.0:
+    resolution: {integrity: sha512-+lmjic1pApJWDfPCpUUTc1m8azDqYCG1JN9YEngrx/hUyIcFJo6VZhj0A1Ai0wqoHcEIuQy+e9tk+4uDgdtsFA==}
     engines: {node: '>= 8'}
     dev: true
 
@@ -1841,8 +1841,8 @@ packages:
       mime-types: 2.1.35
     dev: false
 
-  /typescript/4.8.0-dev.20220705:
-    resolution: {integrity: sha512-sRnXrV4EzqJhcVnlve3h6S99jIT7cF40ECs+qm0hMMy9r2aZiZdIN7gU30oZeYSexUPXYoybp6L5FxK7ndxd2A==}
+  /typescript/4.8.0-dev.20220707:
+    resolution: {integrity: sha512-ggDE0KOavm87SczAWwUjZaJ/JAHWWoRYXpaINMLoh5tPY8rqYnJSIdn9iPrQEk/5+FZKIq66Kb/5ZH5MysJPZw==}
     engines: {node: '>=4.2.0'}
     hasBin: true
     dev: true
