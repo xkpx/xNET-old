@@ -6,7 +6,7 @@ overrides:
 specifiers:
   '@sveltejs/adapter-node': 1.0.0-next.78
   '@sveltejs/kit': 1.0.0-next.359
-  dotenv: 16.0.3
+  dotenv: 16.4.5
   express: 5.0.0-beta.1
   javascript-obfuscator: 4.0.0
   rollup-obfuscator: 3.0.1
@@ -17,7 +17,7 @@ specifiers:
 
 dependencies:
   '@sveltejs/adapter-node': 1.0.0-next.78
-  dotenv: 16.0.3
+  dotenv: 16.4.5
   express: 5.0.0-beta.1
   svelte-adapter-deno: 0.7.0
 
@@ -454,8 +454,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /dotenv/16.0.3:
-    resolution: {integrity: sha512-7GO6HghkA5fYG9TYnNxi14/7K9f5occMlp3zXAuSxn7CKCxt9xbNWG7yF8hTCSUchlfWSe3uLmlPfigevRItzQ==}
+  /dotenv/16.4.5:
+    resolution: {integrity: sha512-ZmdL2rui+eB2YwhsWzjInR8LldtZHGDoQ1ugH85ppHKwpUHL7j7rN0Ti9NCnGiQbhaZ11FpR+7ao1dNsmduNUg==}
     engines: {node: '>=12'}
     dev: false
 
@@ -1694,8 +1694,8 @@ packages:
       picocolors: 1.0.0
       sade: 1.8.1
       svelte: 3.48.0
-      svelte-preprocess: 4.10.7_joykd3yqq4bjyq2ry5skalsufu
-      typescript: 4.9.0-dev.20221007
+      svelte-preprocess: 4.10.7_ae6orbwoyebuagkfv4m6vyysxa
+      typescript: 5.4.0-dev.20240219
     transitivePeerDependencies:
       - '@babel/core'
       - coffeescript
@@ -1718,7 +1718,7 @@ packages:
       svelte: 3.48.0
     dev: true
 
-  /svelte-preprocess/4.10.7_joykd3yqq4bjyq2ry5skalsufu:
+  /svelte-preprocess/4.10.7_ae6orbwoyebuagkfv4m6vyysxa:
     resolution: {integrity: sha512-sNPBnqYD6FnmdBrUmBCaqS00RyCsCpj2BG58A1JBswNF7b0OKviwxqVrOL/CKyJrLSClrSeqQv5BXNg2RUbPOw==}
     engines: {node: '>= 9.11.2'}
     requiresBuild: true
@@ -1766,7 +1766,7 @@ packages:
       sorcery: 0.10.0
       strip-indent: 3.0.0
       svelte: 3.48.0
-      typescript: 4.9.0-dev.20221007
+      typescript: 5.4.0-dev.20240219
     dev: true
 
   /svelte-preprocess/4.10.7_svelte@3.48.0:
@@ -1862,9 +1862,9 @@ packages:
       mime-types: 2.1.35
     dev: false
 
-  /typescript/4.9.0-dev.20221007:
-    resolution: {integrity: sha512-WUWBISjoFrMbCYj2tTqFiivW3dDNRLHIXEAKj26BoGYjbperB4jSCyrpTo45FNYcpRM3viCU4Tie8FruXAYZRg==}
-    engines: {node: '>=4.2.0'}
+  /typescript/5.4.0-dev.20240219:
+    resolution: {integrity: sha512-8axQCpRgDdLJRq7TMsX6U4zYXmHY5akkaGMjiQPro76rLIHMhmI7llfnpuV5wAFAtu1vARTTwccmWy4h5qjEDA==}
+    engines: {node: '>=14.17'}
     hasBin: true
     dev: true
 
