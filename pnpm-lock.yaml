@@ -6,7 +6,7 @@ overrides:
 specifiers:
   '@sveltejs/adapter-node': 1.0.0-next.78
   '@sveltejs/kit': 1.0.0-next.359
-  dotenv: 16.0.3
+  dotenv: 16.6.1
   express: 5.0.0-beta.1
   javascript-obfuscator: 4.0.0
   rollup-obfuscator: 3.0.1
@@ -17,7 +17,7 @@ specifiers:
 
 dependencies:
   '@sveltejs/adapter-node': 1.0.0-next.78
-  dotenv: 16.0.3
+  dotenv: 16.6.1
   express: 5.0.0-beta.1
   svelte-adapter-deno: 0.7.0
 
@@ -173,6 +173,69 @@ packages:
     dependencies:
       '@types/node': 18.0.1
     dev: true
+
+  /@typescript/typescript-darwin-arm64/7.1.0-dev.20261013.1:
+    resolution: {integrity: sha512-V22DvbTQjg6kMEqU5hhZmxhZqTNdbwNz3YB1CULEtxH7gxMxPvFpMM5rbJQgZlhabo0DxvsFfTdUNjOTr4IPIQ==}
+    engines: {node: '>=16.20.0'}
+    cpu: [arm64]
+    os: [darwin]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@typescript/typescript-darwin-x64/7.1.0-dev.20261013.1:
+    resolution: {integrity: sha512-v10+lJ+NedjOIxTapLg6EQEeWkVdi48f3xVSR9b7e6QXoXCHBpsh/kWXV9TsV5ktK6dVupejI37NhYshHhL30g==}
+    engines: {node: '>=16.20.0'}
+    cpu: [x64]
+    os: [darwin]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@typescript/typescript-linux-arm/7.1.0-dev.20261013.1:
+    resolution: {integrity: sha512-AoETMKNMW3fSoBShrmReiWcMShNLUzxlOyOEcmvWhJJYMMi0Tn6D3djoeuyojtCgUGwcygGaV5F893axTzDZ3w==}
+    engines: {node: '>=16.20.0'}
+    cpu: [arm]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@typescript/typescript-linux-arm64/7.1.0-dev.20261013.1:
+    resolution: {integrity: sha512-Yfc3YMuraVGekDFh3UNBnuOyXQV76kTqEGN/eYgyarHNy6T8GlhZeF27Q8MTi7UUwf5/gYb4bkXaN1QHazUIIw==}
+    engines: {node: '>=16.20.0'}
+    cpu: [arm64]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@typescript/typescript-linux-x64/7.1.0-dev.20261013.1:
+    resolution: {integrity: sha512-3A4+Mc0oaeylfTNhOqWO16Rjsus1rbUePzO8syfp3hjd2KMm97KlQjZoWQdTx4HMN+kNO0gkBeK6EPmExcfaug==}
+    engines: {node: '>=16.20.0'}
+    cpu: [x64]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@typescript/typescript-win32-arm64/7.1.0-dev.20261013.1:
+    resolution: {integrity: sha512-lm1K1ltNO88ynBQiQlJJLncUPvDeimW4R50T+Adp8jsLDgbVObuBPXvaiQnpV922JeMWSnOgIH7KeRvxD3W/EQ==}
+    engines: {node: '>=16.20.0'}
+    cpu: [arm64]
+    os: [win32]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@typescript/typescript-win32-x64/7.1.0-dev.20261013.1:
+    resolution: {integrity: sha512-+K0COtvzbCVuQFVQ25pEXlGOfOqES53+y2XNeZUSfJONLOOmfSc5sniVyTSjjrzMstg8zK9W20nJGKs1eY9BkQ==}
+    engines: {node: '>=16.20.0'}
+    cpu: [x64]
+    os: [win32]
+    requiresBuild: true
+    dev: true
+    optional: true
 
   /accepts/1.3.8:
     resolution: {integrity: sha512-PYAthTa2m2VKxuvSD3DPC/Gy+U+sOA1LAuT8mkmRuvw+NACSaeXEQ+NHcVF7rONl6qcaxV3Uuemwawk+7+SJLw==}
@@ -454,8 +517,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /dotenv/16.0.3:
-    resolution: {integrity: sha512-7GO6HghkA5fYG9TYnNxi14/7K9f5occMlp3zXAuSxn7CKCxt9xbNWG7yF8hTCSUchlfWSe3uLmlPfigevRItzQ==}
+  /dotenv/16.6.1:
+    resolution: {integrity: sha512-uBq4egWHTcTt33a72vpSG0z3HnPuIl6NqYcTrKEg2azoEyl2hpW0zqlxysq2pK9HlDIHyHyakeYaYnSAwd8bow==}
     engines: {node: '>=12'}
     dev: false
 
@@ -1694,8 +1757,8 @@ packages:
       picocolors: 1.0.0
       sade: 1.8.1
       svelte: 3.48.0
-      svelte-preprocess: 4.10.7_joykd3yqq4bjyq2ry5skalsufu
-      typescript: 4.9.0-dev.20221007
+      svelte-preprocess: 4.10.7_ko5gj7ayzzmy6tli776dueigpy
+      typescript: 7.1.0-dev.20261013.1
     transitivePeerDependencies:
       - '@babel/core'
       - coffeescript
@@ -1718,7 +1781,7 @@ packages:
       svelte: 3.48.0
     dev: true
 
-  /svelte-preprocess/4.10.7_joykd3yqq4bjyq2ry5skalsufu:
+  /svelte-preprocess/4.10.7_ko5gj7ayzzmy6tli776dueigpy:
     resolution: {integrity: sha512-sNPBnqYD6FnmdBrUmBCaqS00RyCsCpj2BG58A1JBswNF7b0OKviwxqVrOL/CKyJrLSClrSeqQv5BXNg2RUbPOw==}
     engines: {node: '>= 9.11.2'}
     requiresBuild: true
@@ -1766,7 +1829,7 @@ packages:
       sorcery: 0.10.0
       strip-indent: 3.0.0
       svelte: 3.48.0
-      typescript: 4.9.0-dev.20221007
+      typescript: 7.1.0-dev.20261013.1
     dev: true
 
   /svelte-preprocess/4.10.7_svelte@3.48.0:
@@ -1862,10 +1925,18 @@ packages:
       mime-types: 2.1.35
     dev: false
 
-  /typescript/4.9.0-dev.20221007:
-    resolution: {integrity: sha512-WUWBISjoFrMbCYj2tTqFiivW3dDNRLHIXEAKj26BoGYjbperB4jSCyrpTo45FNYcpRM3viCU4Tie8FruXAYZRg==}
-    engines: {node: '>=4.2.0'}
+  /typescript/7.1.0-dev.20261013.1:
+    resolution: {integrity: sha512-wEt6fQCqhZ3hrbIUaO2LS7d94FSzH+xGP+/KJCxFNFHQiG/W2L0rJ/1B7lAQv6VKntlmjWuzYQ8LABuLZ3W/sg==}
+    engines: {node: '>=16.20.0'}
     hasBin: true
+    optionalDependencies:
+      '@typescript/typescript-darwin-arm64': 7.1.0-dev.20261013.1
+      '@typescript/typescript-darwin-x64': 7.1.0-dev.20261013.1
+      '@typescript/typescript-linux-arm': 7.1.0-dev.20261013.1
+      '@typescript/typescript-linux-arm64': 7.1.0-dev.20261013.1
+      '@typescript/typescript-linux-x64': 7.1.0-dev.20261013.1
+      '@typescript/typescript-win32-arm64': 7.1.0-dev.20261013.1
+      '@typescript/typescript-win32-x64': 7.1.0-dev.20261013.1
     dev: true
 
   /unbox-primitive/1.0.2:
